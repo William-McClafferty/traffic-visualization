@@ -2,17 +2,24 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>DC Traffic Prototype</title>
+  <title>DC Traffic Visualization</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <h1>DC Traffic Route Prototype</h1>
-  <p>This project explores traffic volume along my routes at specific times between my home to school, and home to work in Washington, D.C.</p>
+  <h1>DC Traffic Route Visualization</h1>
+  <p>This project explores traffic volume along my routes at specific times between my home and school, work and school, and home and work (and vice versa) in Washington, D.C.</p>
+
+  <svg id="map" width="800" height="430"></svg>
+
+  <div id="route-buttons"></div>
 
   <svg id="chart" width="800" height="400"></svg>
 
   <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/map.js"></script>
+  <script src="js/chart.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

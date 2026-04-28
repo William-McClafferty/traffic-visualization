@@ -6,5 +6,5 @@ The prototype loads a CSV dataset and displays basic elements in an SVG to confi
 
 # Structure
 - data/ → contains traffic dataset
-- js/ → JavaScript for visualization
+- js/ → contains JavaScript files for building visualization
 - index.html → main page

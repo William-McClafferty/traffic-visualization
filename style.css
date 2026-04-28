@@ -1,9 +1,47 @@
 body {
   font-family: Arial, sans-serif;
   margin: 20px;
+  background: white;
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
+p {
+  max-width: 850px;
 }
 
 svg {
-  background: #f5f5f5;
   border: 1px solid #ccc;
+  display: block;
+  margin-bottom: 20px;
+}
+
+#map {
+  background: #223044;
+}
+
+#chart {
+  background: #f5f5f5;
+}
+
+#route-buttons {
+  margin-bottom: 20px;
+}
+
+.route-button {
+  margin-right: 8px;
+  margin-bottom: 8px;
+  padding: 8px 12px;
+  border: 1px solid #888;
+  background: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.route-button.active {
+  background: green;
+  color: white;
+  border-color: green;
 }
